@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".toolbar_hide.ToolbarHideMainAct">
+
+    <!--<item-->
+        <!--android:id="@+id/action_search_view"-->
+        <!--android:icon="@drawable/baseline_search_black_36dp"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title=""-->
+        <!--app:actionViewClass="android.widget.SearchView"-->
+        <!--app:showAsAction="always|collapseActionView"/>-->
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/baseline_search_black_36dp"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_reload"
+        android:icon="@drawable/baseline_autorenew_black_36dp"
+        android:title="Reload"
+        app:showAsAction="always" />
+
+    <group>
+        <item android:id="@+id/action_more"
+            android:icon="@drawable/baseline_more_vert_black_36dp"
+            android:title="More"
+            app:showAsAction="always">
+            <menu>
+                <item
+                    android:id="@+id/action_more_bookmarks"
+                    android:title="북마크"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_more_share"
+                    android:title="공유"
+                    app:showAsAction="never" />
+
+                <item
+                    android:id="@+id/action_more_delete"
+                    android:title="방문기록 삭제"
+                    app:showAsAction="never" />
+            </menu>
+
+        </item>
+    </group>
+</menu>

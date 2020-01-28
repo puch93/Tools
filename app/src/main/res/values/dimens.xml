@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_line">1dp</dimen>
+
+    <dimen name="list_item_height">48dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="list_item_left_margin">72dp</dimen>
+
+    <dimen name="toolbar_padding_left">6dp</dimen>
+    <dimen name="toolbar_padding_right">6dp</dimen>
+</resources>

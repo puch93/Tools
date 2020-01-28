@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="lineDefault">#89A8BC</color>
+
+
+
+
+    <color name="cwhite">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="color_284468">#284468</color>
+    <color name="color_9A9A9A">#9A9A9A</color>
+    <color name="color_50D457">#50D457</color>
+    <color name="color_FF0000">#FF0000</color>
+    <color name="color_F20000">#F20000</color>
+    <color name="color_4D4D4D">#4D4D4D</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_F1797C">#F1797C</color>
+    <color name="color_FAFAFA">#FAFAFA</color>
+    <color name="color_ED1C24">#ED1C24</color>
+    <color name="color_3FC446">#3FC446</color>
+    <color name="color_F86258">#F86258</color>
+    <color name="color_616161">#616161</color>
+    <color name="color_FFFEFE">#FFFEFE</color>
+    <color name="color_404040">#404040</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_FF7761">#FF7761</color>
+    <color name="color_004E66">#004E66</color>
+    <color name="color_00BF5D">#00BF5D</color>
+    <color name="color_F9002F">#F9002F</color>
+    <color name="color_00bf5d">#00bf5d</color>
+    <color name="color_ff7761">#ff7761</color>
+    <color name="color_5b2193">#5b2193</color>
+    <color name="color_0d48e5">#0d48e5</color>
+    <color name="color_f04242">#f04242</color>
+    <color name="color_8e8e8e">#8e8e8e</color>
+    <color name="color_b284d2">#b284d2</color>
+    <color name="color_aaaaaa">#aaaaaa</color>
+    <color name="color_ffa301">#ffa301</color>
+    <color name="color_f27c7f">#f27c7f</color>
+    <color name="color_b182d2">#b182d2</color>
+    <color name="color_f7ba4e">#f7ba4e</color>
+    <color name="color_ffd647">#ffd647</color>
+    <color name="color_646464">#646464</color>
+    <color name="color_6200EE">#6200EE</color>
+</resources>

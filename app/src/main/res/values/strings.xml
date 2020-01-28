@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tools</string>
+    <string name="ebs_eng">rtsp://new_iradio.ebs.co.kr:554/iradio/iradiolive_m4a</string>
+    <string name="ebs_book">rtsp://ebsonairandaod.ebs.co.kr:554/fmradiobandiaod/bandiappaac</string>
+    <string name="example">http://aac.cbs.co.kr/cbs981/_definst_/cbs981.stream/playlist.m3u8</string>
+    <string name="kakao_app_key">80b4000a2aca62905cfc7518c2f09ee2</string>
+
+    <string name="instruction">Enter the words above</string>
+    <string name="verify">Verify</string>
+    <string name="reload">Reload</string>
+    <string name="show_error">Failed to show CAPTCHA</string>
+    <string name="verification_success">Your answer is verified successfully</string>
+    <string name="verification_failed">You did not enter the CAPTCHA phrase correctly</string>
+</resources>
