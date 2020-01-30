@@ -24,9 +24,14 @@ android {
     /* java 8 을 지원하는 라이브러리 추가 */
     android {
         compileOptions {
-            sourceCompatibility 1.8
-            targetCompatibility 1.8
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
         }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
 }
@@ -99,8 +104,13 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
     implementation 'com.github.bumptech.glide:glide:4.10.0'
 
-    /* exoplayer */
-//    implementation "com.google.android.exoplayer:exoplayer-core:$exoplayer_version"
-//    implementation "com.google.android.exoplayer:exoplayer-ui:$exoplayer_version"
+    /* recyclerview paging */
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'com.jakewharton:butterknife:10.0.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    /* spanned grid recyclerview */
+//    implementation 'com.arasthel:spannedgridlayoutmanager:3.0.2'
 
 }

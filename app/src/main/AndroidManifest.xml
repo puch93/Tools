@@ -21,7 +21,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".vr.VrMainActivity"></activity>
+        <activity android:name=".grid_span_recyclerview.SpannedMainAct"></activity>
+        <activity android:name=".vr.VrMainActivity" />
         <activity android:name=".youtube.YoutubeACt" />
         <activity android:name=".address.AddressMainAct" />
         <activity

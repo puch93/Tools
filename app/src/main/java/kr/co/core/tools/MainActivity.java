@@ -16,6 +16,7 @@ import kr.co.core.tools.address.AddressMainAct;
 import kr.co.core.tools.address.AddressSubAct;
 import kr.co.core.tools.date_picker.DatePickerMainAct;
 import kr.co.core.tools.exoplayer.ExoMainAct2;
+import kr.co.core.tools.grid_span_recyclerview.SpannedMainAct;
 import kr.co.core.tools.mp4.Mp4MainAct;
 import kr.co.core.tools.recapcha.RecapchaActivitiy2;
 import kr.co.core.tools.share.ShareMainActivity;
@@ -66,5 +67,6 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainData("address", AddressMainAct.class));
         list.add(new MainData("youtube", YoutubeACt.class));
         list.add(new MainData("vrtest", YoutubeACt.class));
+        list.add(new MainData("grid recycler spanned", SpannedMainAct.class));
     }
 }
