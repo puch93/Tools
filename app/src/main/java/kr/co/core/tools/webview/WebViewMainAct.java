@@ -56,15 +56,12 @@ public class WebViewMainAct extends AppCompatActivity implements View.OnTouchLis
 
     private InputMethodManager imm;
 
-
     ListView listView;
     TestBaseAdapter adapter;
     ArrayList<RecentData> recent_data;
 
-
     boolean search_check = false;
     SwipeRefreshLayout refreshLayout;
-
 
     ActionBar actionBar;
 

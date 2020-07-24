@@ -14,12 +14,14 @@ import java.util.ArrayList;
 import kr.co.core.tools.actionbar.ActionBarActivity;
 import kr.co.core.tools.address.AddressMainAct;
 import kr.co.core.tools.address.AddressSubAct;
+import kr.co.core.tools.app_response.ResponseMainAct;
 import kr.co.core.tools.date_picker.DatePickerMainAct;
 import kr.co.core.tools.exoplayer.ExoMainAct2;
 import kr.co.core.tools.grid_span_recyclerview.SpannedMainAct;
 import kr.co.core.tools.mp4.Mp4MainAct;
 import kr.co.core.tools.recapcha.RecapchaActivitiy2;
 import kr.co.core.tools.share.ShareMainActivity;
+import kr.co.core.tools.smsdelete.SmsDeleteMainAct;
 import kr.co.core.tools.webview.WebViewMainAct;
 import kr.co.core.tools.expandable_recyclerview.ExpandableMainAct;
 import kr.co.core.tools.toolbar_hide.ToolbarHideMainAct;
@@ -68,5 +70,7 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainData("youtube", YoutubeACt.class));
         list.add(new MainData("vrtest", YoutubeACt.class));
         list.add(new MainData("grid recycler spanned", SpannedMainAct.class));
+        list.add(new MainData("응답남녀", ResponseMainAct.class));
+        list.add(new MainData("문자삭제", SmsDeleteMainAct.class));
     }
 }
