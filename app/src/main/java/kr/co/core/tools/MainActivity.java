@@ -19,6 +19,7 @@ import kr.co.core.tools.date_picker.DatePickerMainAct;
 import kr.co.core.tools.exoplayer.ExoMainAct2;
 import kr.co.core.tools.grid_span_recyclerview.SpannedMainAct;
 import kr.co.core.tools.mp4.Mp4MainAct;
+import kr.co.core.tools.ratingbar.RatingBarMainAct;
 import kr.co.core.tools.recapcha.RecapchaActivitiy2;
 import kr.co.core.tools.share.ShareMainActivity;
 import kr.co.core.tools.smsdelete.SmsDeleteMainAct;
@@ -72,5 +73,6 @@ public class MainActivity extends AppCompatActivity {
         list.add(new MainData("grid recycler spanned", SpannedMainAct.class));
         list.add(new MainData("응답남녀", ResponseMainAct.class));
         list.add(new MainData("문자삭제", SmsDeleteMainAct.class));
+        list.add(new MainData("평점하기", RatingBarMainAct.class));
     }
 }

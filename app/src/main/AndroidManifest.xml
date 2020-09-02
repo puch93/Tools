@@ -11,6 +11,7 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".gif_loading.BaseApplication"
@@ -23,7 +24,8 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ratingbar.RatingBarMainAct"></activity>
+        <activity android:name=".location.LocationMaincAct"></activity>
+        <activity android:name=".ratingbar.RatingBarMainAct" />
         <activity android:name=".smsdelete.SmsDeleteMainAct" />
         <activity android:name=".app_response.ResponseMainAct" />
         <activity android:name=".grid_span_recyclerview.SpannedMainAct" />
@@ -94,6 +96,11 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
+
+        <service
+            android:name=".location.FetchAddressIntentService"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
     </application>
 
 </manifest>

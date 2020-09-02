@@ -6,14 +6,28 @@
     android:layout_height="match_parent"
     tools:context=".ratingbar.RatingBarMainAct">
 
+<!--    <RatingBar-->
+<!--        android:id="@+id/star_point_"-->
+<!--        style="@style/foodRatingBar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:numStars="5"-->
+<!--        android:rating="3"-->
+<!--        android:stepSize="0.5" />-->
+
     <RatingBar
-        android:id="@+id/rtbProductRating"
-        style="@style/foodRatingBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:isIndicator="false"
-        android:numStars="5"
-        android:rating="3.5" />
+        style="@style/foodRatingBar"/>
 
+
+    <!--    <androidx.appcompat.widget.AppCompatRatingBar-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        style="?android:attr/ratingBarStyle"-->
+    <!--        android:background="@android:color/holo_red_dark"-->
+    <!--        android:id="@+id/ratingBar1"-->
+    <!--        android:stepSize="0.1"-->
+    <!--        android:rating="2.5"/>-->
 
 </LinearLayout>

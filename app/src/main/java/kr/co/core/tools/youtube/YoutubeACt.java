@@ -32,7 +32,6 @@ public class YoutubeACt extends AppCompatActivity {
          *  https://youtu.be/ZRcnRtB2jFU?t=1
          */
 
-
 //        String url = "https://www.youtube.com/watch?v=ZRcnRtB2jFU";  // 영상 주소
         String url = "https://youtu.be/ZRcnRtB2jFU?t=1";  // 영상 주소
         String resultUrl = "https://img.youtube.com/vi/";  // 썸네일 주소
@@ -44,5 +43,8 @@ public class YoutubeACt extends AppCompatActivity {
         Log.e("TEST_HOME", "url: " + resultUrl);
 
         Glide.with(this).load(resultUrl).into(((ImageView) findViewById(R.id.iv_youtube)));
+
+
+
     }
 }
